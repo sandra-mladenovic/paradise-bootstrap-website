@@ -1,0 +1,280 @@
+body{
+	font-family:'Kavivanar', cursive;
+	background-color: #eee;
+}
+/*navigacioni meni*/
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.navbar-default{
+	background-color: #eee;
+	border:0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#31708f;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color:rgba(255,255,255,.15);
+	color: #31708f;
+}
+.navbar-default .navbar-brand {
+	color:#31708f;
+	padding: 0px 18px;
+}
+.navbar-brand h1{
+	font-size: 20px;
+	margin:0px;
+	padding:15px;
+}
+.navbar-brand h1:hover{
+	font-weight:bold;
+}
+a{
+	color: #31708f;
+}
+a:hover{
+	text-decoration: none;
+	color:90999a;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	border-radius: 6px;
+}
+
+
+
+/*Sredjivanje sadrzaja index.html stranice */
+.logoHeader{
+	padding:40px;
+}
+h2, h3{
+	color:#31708f;
+}
+p{
+	padding:10px 5px;
+	text-align: justify;
+	font-size: 15px;
+	color:#595959;
+	letter-spacing: 1px;
+}
+.naslov{
+	font-size:32px;
+}
+.text-info {
+	font-size: 21px;
+}
+.well{
+	margin-top: 10px;
+}
+/*Drustvene mreze */
+#mrezeDr, .list-inline{
+	padding:15px;
+}
+.navbar-right .fa-facebook-square{
+	color:#2b4a76;
+}
+.navbar-right .fa-youtube-play{
+	color:#ff1d18;
+}
+.navbar-right .fa-twitter{
+	color:#3bc3ea;
+}
+.fa, .glyphicon {
+	padding-right:6px;
+}
+.dropdown-menu>li>a{
+	color:#31708f;
+}
+
+/* Naslovna slika*/
+.naslovna1{
+	background-image: url('../slike/slajder1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:450px;
+	width:100%;
+	position:relative;
+	margin-bottom:40px;
+}
+.naslovna{
+	background-image: url('../slike/slajder.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:450px;
+	width:100%;
+	position:relative;
+	margin-bottom:40px;
+}
+.slajderTekst{
+	position: absolute;
+	background-color: rgba(255,255,255,0.9);
+	top:20%;
+}
+
+
+
+/*Stilizovanje citata*/
+.well blockquote{
+	border-color: #FF0000;
+}
+.well{
+	border: 0px;
+}
+.pMreze{
+	float:right;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color:#f5f5f5;
+}
+
+#tekst{
+	padding-bottom:20px;
+}
+#kontakt {
+	background-color: #fff;
+}
+.control-label, .btn-default{
+	color:#31708f;
+}
+
+.col-xs-12 h2{
+	text-align:center;
+	padding: 15px 0px;
+}
+.futer {
+	text-align: center;
+	color: #6666ff;
+	letter-spacing:2px;
+	font-size:17px;
+	padding:20px;
+}
+/*Stranica o autoru*/
+.author h2{
+	text-align:left;
+}
+.slika{
+	margin:0px auto;
+}
+.col-lg-6 .aTekst{
+	margin:0px auto;
+}
+.aTekst p{
+	font-size:19px;
+}/*Smanjena velcina citata i naslova 
+ kako bi akcenat bio na autoru*/
+.aCitat{
+	font-size: 18px;
+}
+
+/* Kontakt stranica*/
+.btn-default:hover{
+	background-color:#fff;
+	border-color: #eee;
+	color: #31708f;
+}
+select{
+	border-radius: 6px;
+}
+.pol{
+	color:#333;
+}
+/* Responsive */
+
+/* Responsive za max velicinu od 1200px */
+@media (max-width: 1200px){
+	h3{
+		font-size: 21px;
+	}
+	.text-info {
+		font-size: 19px;
+	}
+	
+}
+/* Responsive za max velicinu od 992px */
+
+@media (max-width: 992px){
+	
+	.naslovna1, .naslovna{
+		height:380px;
+	}
+	.naslov{
+		font-size:29px;
+	}
+}
+/* Responsive za max velicinu od 768px */
+@media (max-width: 768px){
+	.naslovna1, .naslovna{
+		height:340px;
+	}
+	.text-info {
+		font-size: 17px;
+	}
+	
+	.naslov{
+		font-size:25px;
+	}
+	.slikeI{
+		padding:50px;
+		
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color:#31708f;
+	}
+}
+/* Responsive za max velicinu od 480px */
+@media (max-width: 480px){
+	.slikeI{
+		padding:0px;
+	}
+	.text-info {
+		font-size: 15px;
+	}
+	.futer b{
+		font-size:12px;
+	}
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
